@@ -20,7 +20,7 @@ function checkCountValue() {
   }
 
   function reset(){
-
-  document.getElementById('countDisplay').innerHTML=0; // Resetting it to 0
+  count = 0 ;
+  document.getElementById('countDisplay').innerHTML=count; // Resetting it to 0
   alert(" followers count has been reset");
   }
